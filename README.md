@@ -9,7 +9,7 @@ Ce projet est une application graphique en Python permettant de calculer la moye
 - **Réinitialisation complète** : Efface toutes les entrées pour recommencer une nouvelle saisie.
 
 ## Prérequis
-- **Python 3.x** doit être installé sur votre machine.
+- **Python 3.11.5** doit être installé sur votre machine.
 
 ## Installation
 1. Clonez ce dépôt ou téléchargez le fichier source :
