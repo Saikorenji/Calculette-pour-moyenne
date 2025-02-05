@@ -19,7 +19,7 @@ Ce projet est une application graphique en Python permettant de calculer la moye
    ```
 2. Exécutez le script Python :
    ```bash
-   python main.py
+   python calculetto.py
    ```
 
 ## Utilisation
@@ -30,7 +30,7 @@ Ce projet est une application graphique en Python permettant de calculer la moye
 5. Cliquez sur **"Réinitialiser"** pour vider toutes les entrées et recommencer.
 
 ## Technologies utilisées
-- **Python 3.x**
+- **Python 3.11.5**
 - **Tkinter** (interface graphique native de Python)
 
 ## Auteur
