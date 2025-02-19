@@ -37,4 +37,4 @@ Ce projet est une application graphique en Python permettant de calculer la moye
 - **Saikorenji** - Développeur
 
 ## Licence
-Ce projet est sous licence MIT - voir le fichier [LICENSE](LICENSE) pour plus de détails.
+Sert toi du code pour le copier coller t'inquiète, j'vous l'offre pour vos projets d'étudiants.
