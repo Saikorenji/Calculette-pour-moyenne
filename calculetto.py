@@ -24,12 +24,21 @@ def calculer_moyenne():
 def ajouter_champs():
     frame_entry = tk.Frame(frame, bg="#f0f0f0")
     frame_entry.pack(pady=5)
+
+    label_note = tk.Label(frame_entry, text="Note :", font=("Arial", 10), bg="#f0f0f0")
+    label_note.pack(side=tk.LEFT, padx=5)
     entry_note = tk.Entry(frame_entry, width=10, font=("Arial", 12))
     entry_note.pack(side=tk.LEFT, padx=5)
+
+    label_coeff = tk.Label(frame_entry, text="Coefficient :", font=("Arial", 10), bg="#f0f0f0")
+    label_coeff.pack(side=tk.LEFT, padx=5)
     entry_coeff = tk.Entry(frame_entry, width=10, font=("Arial", 12))
     entry_coeff.pack(side=tk.LEFT, padx=5)
-    btn_supprimer = tk.Button(frame_entry, text="X", font=("Arial", 10), bg="#f44336", fg="white", command=lambda: supprimer_champs(frame_entry, entry_note, entry_coeff))
+
+    btn_supprimer = tk.Button(frame_entry, text="X", font=("Arial", 10), bg="#f44336", fg="white", 
+                              command=lambda: supprimer_champs(frame_entry, entry_note, entry_coeff))
     btn_supprimer.pack(side=tk.LEFT, padx=5)
+
     entries.append((entry_note, entry_coeff, frame_entry))
 
 def supprimer_champs(frame_entry, entry_note, entry_coeff):
